@@ -1,9 +1,9 @@
 module.exports = class NeoxrApi {
-   baseUrl = 'https://api.neoxr.my.id/api'
+   baseUrl = 'https://zenzapis.xyz'
    apiKey = null
 
    constructor(apiKey) {
-      this.apiKey = apiKey || 'xls3pq'
+      this.apiKey = apiKey || 'fc24d26ad3'
    }
    
    check = async () => {
